@@ -173,6 +173,10 @@ export default function LoginForm({
                 <option value="">-- Choose name --</option>
                 <option value="Wai Hlaing Phyo">Wai Hlaing Phyo</option>
                 <option value="Theingi Win">Theingi Win</option>
+                <option value="Pan Nu Wai">Pan Nu Wai</option>
+                <option value="Aye Mon Myint">Aye Mon Myint</option>
+                <option value="April">April</option>
+                <option value="La Pyae">La Pyae</option>
               </select>
             </div>
 
