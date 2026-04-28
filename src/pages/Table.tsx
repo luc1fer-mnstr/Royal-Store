@@ -26,11 +26,12 @@ export default function Table() {
   const totalPrice = data.reduce((sum, row) => sum + Number(row.price || 0), 0);
 
   const totalKpay = data.reduce((sum, row) => sum + Number(row.kpay || 0), 0);
-
+  const today = new Date().toLocaleDateString();
   return (
     <div className="p-6">
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <h2 className="text-xl font-bold mb-4">Sales Table</h2>
+        <p className="bg-sky-200 p-2">{today}</p>
         <Link
           to="/form"
           className="flex mr-4 underline hover:text-muted-foreground"
